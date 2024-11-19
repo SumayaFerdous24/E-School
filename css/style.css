@@ -1,0 +1,235 @@
+/* Common codes */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1.7rem;
+    font-weight: 400;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+/* Header Area */
+.header-area{
+ background-color: #F0FFF0;
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: end;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	margin-left: 25px;
+    color: #000;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover, .navbar-expand-lg .navbar-nav .nav-link:focus {
+    color: #21B573;
+}
+.btn {
+	margin-left: 25px;
+	background-color: #21B573;
+	color: #fff;
+	padding: 10px 27px;
+	text-transform: capitalize;
+	display: inline-block;
+	border-radius: 22px;
+    transition: .5s;
+}
+.btn:hover{
+    color: #21B573;
+    background-color: transparent;
+    border: 1px solid #21B573;
+}
+
+
+/* Banner */
+.banner-area{
+    padding: 60px 0;
+}
+.banner-area .btn{
+    margin-left: 0;
+    display: inline-block;
+}
+.banner{
+    align-items: center;
+}
+.banner-left {
+	padding-right: 97px;
+}
+.banner-area .banner .banner-left h4 {
+	font-size: 16px;
+    line-height: 26px;
+	color: #FD511A;
+	font-weight: 400;
+    margin-bottom: 15px;
+}
+.banner-area .banner .banner-left h1 {
+	font-size: 48px;
+    line-height: 62px;
+    font-weight: 700;
+    color: #000;
+}
+.banner-area .banner .banner-left span {
+    color: #21B573;
+}
+.banner-area .banner .banner-left p {
+	padding: 15px 0;
+    color: #000;
+}
+.banner .banner-img img{
+    width: 554px;
+    height: 346px;
+}
+.banner .banner-img{
+    text-align: right;
+}
+
+
+/* Feature section */
+.feature-area{
+    padding: 60px 0;
+}
+.single-feature {
+	text-align: center;
+	background-color: #fff;
+	padding: 25px 0px;
+	width: 210px;
+    border-radius: 15px;
+    transition: .5s;
+}
+.single-feature:hover {
+	box-shadow: 0px 0px 10px -6px;
+}
+.single-feature img{
+    width: 66px;
+    height: 85px;
+    margin-bottom: 25px;
+}
+.single-feature h3{
+    color: #413960;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+.single-feature p{
+    margin: 0;
+    color: #585859;
+}
+
+
+/* Services Section */
+.services-area{
+    padding: 60px 0;
+}
+.title{
+    text-align: center;
+    margin-bottom: 45px;
+}
+.title h4{
+    font-size: 36px;
+    font-weight: 700;
+    color: #413960;
+}
+.single-service {
+	background-color: #fff;
+	box-shadow: 0px 0px 10px -6px;
+	padding: 30px;
+    border-radius: 25px;
+}
+.single-service .btn {
+	margin: 0 0 15px;
+    padding: 8px 25px;
+}
+.single-service h5 {
+	color: #413960;
+	font-size: 24px;
+	font-weight: 500;
+	margin: 15px 0 0 0;
+}
+.single-service p {
+	color: #585859;
+	margin: 0;
+	padding: 15px 0;
+}
+.service-bottom .icon {
+	width: 24px;
+	margin-right: 6px;
+	color: #585859;
+}
+.service-bottom p{
+   font-size: 16px;
+   font-weight: 500;
+   color: #585859;
+}
+.service-bottom p{ 
+    margin: 0;
+}
+
+
+/* Testimonial Section */
+.testimonial{
+    padding: 60px 0;
+}
+.testimonial-area .title h4{
+    color: #000;
+}
+.testimonial-area .title{
+    margin-bottom: 30px;
+}
+.testimonial .row{
+    align-items: center;
+}
+.testimonial img{
+    width: 120px;
+}
+.img{
+    text-align: right;
+}
+.testimonial p {
+	padding: 0 20px;
+	width: 620px;
+}
+
+/* Footer Area */
+.footer-area {
+	background-color: #282531;
+	padding-top: 40px;
+}
+.footer-area p{
+    color: #fff;
+}
+.footer-title h4{
+    color: #ffff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+.footer-link ul {
+    padding: 0;
+}
+.footer-link ul li{
+    text-align: left;
+}
+.footer-link ul li a{
+    color: #fff;
+    display: inline-block;
+}
+.footer-bottom{
+    text-align: center;
+    padding-top: 40px;
+    margin-top: 40px;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
